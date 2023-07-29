@@ -46,7 +46,7 @@ const start = async () => {
     });
   } catch (err) {
     console.log(err);
-    return res.status(500).json({ message: err });
+   res.status(500).json({ "message": err });
   }
 };
 
